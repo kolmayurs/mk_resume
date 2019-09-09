@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
+
+
+.main-container {
+    margin: 0px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #efefef;
+
+}
+
+
+.resume-container {
+    margin: 0px auto;
+    max-width: 772px;
+    width: 100%;
+    background: #ffffff;
+    -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.04);
+    -moz-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.04);
+    color: #283648;
+}
+
+@media print {
+    .main-container {
+        margin: -20px;
+        padding: 0px;
+    }
+
+    .resume-container {
+        box-shadow: none;
+    }
+}
+
+.details-container {
+    padding: 35px 35px;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 40px;
+    padding: 10px 0px;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+.left-container {
+    display: inline-block;
+    float: left;
+    width: 30%;
+}
+
+.right-container {
+    display: inline-block;
+    float: left;
+    width: 70%;
+}
+
+.clear {
+    clear: both;
+}
+
+.personal-info-container {
+    padding: 25px 0px 15px 0px;
+    border-bottom: 1px solid #efefef;
+    margin-right: 20px;
+}
+
+.personal-info-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.phone {
+    padding: 25px 0 0 0;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.phone-title {
+    font-weight: 500;
+}
+
+.email {
+    padding: 25px 0 0 0;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.email-title {
+    font-weight: 500;
+}
+
+.address {
+    padding: 25px 0 0 0;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.address-title {
+    font-weight: 500;
+}
+
+.objective-container {
+    padding: 20px 0px;
+}
+
+.objective-icon {
+    display: inline-block;
+    vertical-align: top;
+    padding: 3px 0 10px 0;
+}
+
+.objective {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.objective-title {
+
+    padding: 0 15px;
+    font-size: 22px;
+    font-weight: 700;
+    vertical-align: top;
+}
+
+.objective-content {
+
+    padding: 20px 0px 0 25px;
+    font-size: 16px;
+    line-height: 22px;
+    vertical-align: top;
+    border-left: 1px solid #efefef;
+    margin-left: 5px;
+}
+
+
+.employment-history-container {
+    padding: 20px 0px;
+}
+
+.employment-history-icon {
+    display: inline-block;
+    vertical-align: top;
+    padding: 3px 0 10px 0;
+}
+
+.employment-history {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.employment-history-title {
+
+    padding: 0 15px;
+    font-size: 22px;
+    font-weight: 700;
+    vertical-align: top;
+}
+
+.employment-history-content {
+    font-weight: 700;
+    padding: 20px 0px 0 25px;
+    font-size: 16px;
+    line-height: 22px;
+    vertical-align: top;
+    border-left: 1px solid #efefef;
+    margin-left: 5px;
+}
+
+.employment-history-content-1{
+font-weight: normal;
+font-size: 14px;
+color: #10A555; 
+}
+
+.green-circle{
+color: #10A555; 
+font-size: 22px;
+margin-right: 8px;
+line-height: 28px;
+}
+.grey-circle{
+  color: #E1E1E1;
+  padding-top: 8px;
+  font-size: 22px;
+margin-right: 8px;
+line-height: 28px;
+}
+
+.skill-info-container {
+    padding: 25px 0px 15px 0px;
+    margin-right: 20px;
+}
